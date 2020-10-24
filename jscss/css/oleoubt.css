@@ -1,0 +1,116 @@
+/* a{color:#1e7e34;} */
+a{color:#212529;}
+a:hover{color:#28a745;}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+/* content */
+p img , p video , div img , div video {max-width:100%!important; height:inherit!important;}
+.zw {
+    word-wrap: break-word;
+    word-break: break-all;
+    line-height: 2em;
+}
+.zw>a:after {
+    content: " \f08e";
+    font-family: FontAwesome;
+	
+}
+.zw a{
+	color: #28a745;
+    border-color: #28a745;
+	transition: .3s;
+	}
+.zw a:hover{
+	color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+	}
+.zw img , .zw video{margin-bottom: .5rem!important;    border-radius: .25rem!important;    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;}
+legend{font-size: inherit;}
+blockquote{font-size:unset!important;}
+.sm2_paused:before{content:"\f04b";font-family:"FontAwesome";padding: .5rem;;}/*play*/
+.sm2_playing:before{content:"\f04c";font-family:"FontAwesome";padding: .5rem;;}/*paused*/
+.graphic a:after{content:"\f001";font-family:"FontAwesome";padding: .5rem;;}/*music*/
+.download:before{content:"\f019";font-family: fontawesome;padding: .5rem;;}
+.zw .link:after{content:"\f08e";font-family: fontawesome;padding: .5rem;;}
+/* list */
+li.list-item,.card-body ol li
+ {
+    line-height: 2rem;
+}
+.carousel-item img{width:100%;
+    background: url(https://www.oleou.com/images/loading.gif) center center no-repeat;
+    vertical-align: top;
+}
+.carousel-inner{:overflow: -webkit-paged-x;}
+.carousel-inner h3{:overflow: -webkit-paged-x;    overflow: hidden;    white-space: nowrap;    text-overflow: ellipsis;}
+{    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;}
+.carousel-caption{bottom: 0px;color:#212529;}
+.carousel-indicators{bottom:11%;}
+
+.ce_tab .nav-tabs .nav-link:hover,.sy_tab .nav-tabs .nav-link:hover {
+    color: #495057;
+    background-color: #f8f9fa;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.sy_tab ul li a.nav-link {color:#fff;}
+.carousel-indicators li{background-color:#f50707;}
+
+.card-body ul , .card-body ol 
+	{
+list-style-type: none;
+    padding: 0;}	
+	li.list-item{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+background: url(https://www.oleou.com/skin/default/images/ico3.jpg) no-repeat 0 13px;
+    height: 35px;
+	}
+.guanzhu{line-height: 2rem;}
+.sy_tab .nav-tabs .nav-link{border-top:none;}
+.gugao{height:96px;overflow:hidden;}
+.gugao:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    transition: all .3s ease-out 0s;
+}
+.sy_tab .nav-link{padding:0;}
+.sy_tab .nav-tabs .nav-item{width:33.33%}
+[class*="col-"]{
+            padding: 5px;
+
+}
+.card h4 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+small a {
+    color: #fff!important;
+}
+footer a {
+    color: #6c757d!important;
+}
+blockquote , .zw h3,.zw h5{
+	font-family: Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS PGothic,sans-serif;
+	font-size: 1.25rem;
+	background-color: #f3f5f7;
+    border-color: #42b983;
+    padding: .1rem 1.5rem;
+    border-left-width: .5rem;
+    border-left-style: solid;
+    margin: 1rem 0;}
+.ce_tab ul li a{color:#fff;}
+.text-black-50 small a{color: rgba(0,0,0,.5)!important;}
+.text-black-50 small a:hover{color:#28a745!important;text-decoration:none;}
+.pagination span.thisclass,.container-fluid .row span.thisclass{    background-color: #28a745;color: #fff;padding: 0 .5rem;}
+/* 留言 */
+.vpower {display:none;}
+.vat{color:#b3b3b3;}
+/* 评论 */
+.pllist{word-break:break-all;}
