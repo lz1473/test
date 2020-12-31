@@ -1,5 +1,4 @@
 document.writeln("<style>");
-document.writeln("<!-- 灯笼1 -->");
 document.writeln(".deng-box {");
 document.writeln("	position: fixed;");
 document.writeln("	top: -40px;");
